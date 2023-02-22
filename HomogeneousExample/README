@@ -1,0 +1,4 @@
+Input files needed for the homogeneous boundary value problem (Sec. 4.1), including:
+parameters.prm
+materialDataFile
+timeDataFile
