@@ -1,0 +1,6 @@
+Input files needed for the Hollow-cross example (Sec. 4.2), including:
+HollowCross.geo (gmsh file)
+HollowCross.msh (gmsh file)
+parameters.prm
+materialDataFile
+timeDataFile
