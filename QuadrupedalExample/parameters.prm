@@ -1,0 +1,105 @@
+# Listing of Parameters
+# ---------------------
+subsection Scenario
+  # Geometry, loading and boundary conditions scenario
+  set Scenario number = 7
+  
+  # Global refinement level
+  set Global refinement = 0
+  
+  # Adaptive refinement level
+  set Adaptive refinement = 0
+  
+  # Total number of material regions
+  set Material regions = 5
+  
+  # Material data file name
+  set Material data file = materialDataFile
+  
+  # Material volumetric function type
+  # 1: m_K/2 * pow((m_det_F - 1.0), 2)
+  # 2: m_K/4 * [J^2 - 1.0 - 2*ln(J)]
+  set Material volumetric type = 2
+end
+
+subsection Finite element system
+  # Displacement system polynomial order
+  set Polynomial degree = 1
+
+  # Gauss quadrature order
+  set Quadrature order  = 2
+end
+
+subsection Linear solver
+  # Linear solver iterations (multiples of the system matrix size)
+  # In 2-d, this value is best set at 2. In 3-d, a value of 1 work fine.
+  set Max iteration multiplier = 2
+
+  # Linear solver residual (scaled by residual norm)
+  set Residual                 = 1e-6
+  
+  # Use static condensation and solve a 1-block system, or solve
+  # the full 3-block system using Linear Operators and the Schur
+  # complement.
+  # If use adaptive refinement, then static condensation cannot
+  # be used because of the constraint on hanging nodes.
+  set Use static condensation = true
+
+  # Preconditioner type (ssor or jacobi)
+  set Preconditioner type  = jacobi
+
+  # Preconditioner relaxation value
+  set Preconditioner relaxation  = 0.65
+
+  # Type of solver used to solve the linear system (CG or Direct)
+  set Solver type              = Direct
+end
+
+subsection Nonlinear solver
+  # Number of Newton-Raphson iterations allowed
+  set Max iterations Newton-Raphson = 20
+
+  # Displacement error tolerance
+  set Tolerance displacement        = 1.0e-6
+
+  # Force residual tolerance
+  set Tolerance force               = 1.0e-6
+end
+
+subsection Time
+  # End time
+  set End time       = 1.0
+  
+  # Time data groups
+  set Time data file = timeDataFile
+end
+
+subsection Body force in the reference configuration
+  # Body force in the reference configuration, unit: N/m^3
+  # If the body force is gravity, then the body force = (0, 0, rho_0*g)
+  # x component
+  set Body force x component = 0.0
+
+  # y component
+  set Body force y component = 0.0
+
+  # z component
+  set Body force z component = 0.0
+end
+
+subsection Material magnetic properties  
+  # Material magnetic strain energy type (1-F; 2-Fbar)
+  set Material magnetic type = 2
+
+  # Material permeability
+  set Material permeability = 1.2566370614e-6
+
+  # Applied magnetic field x component in the deformed configuration
+  set Applied magnetic field x component = 0.0
+  
+  # Applied magnetic field y component in the deformed configuration
+  set Applied magnetic field y component = 0.0
+  
+  # Applied magnetic field z component in the deformed configuration
+  set Applied magnetic field z component = 0.2
+end
