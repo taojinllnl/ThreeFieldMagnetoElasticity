@@ -1,0 +1,6 @@
+Input files needed for the Quadrupedal example (Sec. 4.3), including:
+Quadrupedal.geo (gmsh file)
+Quadrupedal.msh (gmsh file)
+parameters.prm
+materialDataFile
+timeDataFile
