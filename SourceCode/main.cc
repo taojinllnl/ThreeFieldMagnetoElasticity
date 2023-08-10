@@ -1,9 +1,8 @@
 /* ---------------------------------------------------------------------
  *
- * Copyright (C) 2010 - 2022 by the deal.II authors and
- *                              & Jean-Paul Pelteret and Andrew McBride
+ * Copyright (C) 2010 - 2022 by the deal.II authors
+ *                          and Tao Jin
  *
- * This file is part of the deal.II library.
  *
  * The deal.II library is free software; you can use it, redistribute
  * it, and/or modify it under the terms of the GNU Lesser General
@@ -15,9 +14,8 @@
  * ---------------------------------------------------------------------
 */
 
-/* Source code for paper "A three-field variational framework for a class of
- * magnetoelastic materials" submitted to
- * Journal of the Mechanics and Physics of Solids (2023)
+/* Source code for paper draft "A three-field based finite element analysis 
+ * for a class of magnetoelastic materials"
  *
  * Author: Tao Jin, PhD (https://www.taojinlab.com/)
  *         Department of Mechanical Engineering
