@@ -2,7 +2,7 @@
 The three-field finite element procedure for hard-magnetic soft materials
 
 ### Purpose 
-This repository provides the source code and the input files for the numerical examples used in the paper titled “A three-field variational framework for a class of magnetoelastic materials”, which is submitted to *Journal of the Mechanics and Physics of Solids* in February 2023. The repository contains the following content:
+This repository provides the source code and the input files for the numerical examples used in the paper draft titled “A three-field based finite element analysis for a class of magnetoelastic materials”. The repository contains the following content:
 1. the source code of the three-field finite element procedure for magneticelastic material modeling.
 2. the input files for the three numerical examples used in the aforementioned manuscript.
 
