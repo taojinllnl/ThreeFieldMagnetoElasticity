@@ -14,8 +14,10 @@
  * ---------------------------------------------------------------------
 */
 
-/* Source code for paper draft "A three-field based finite element analysis 
- * for a class of magnetoelastic materials"
+/* Source code for paper "A three-field based finite element analysis 
+ * for a class of magnetoelastic materials" published in "Finite Elements in Analysis
+ * and Design"
+ * https://doi.org/10.1016/j.finel.2024.104126
  *
  * Author: Tao Jin, PhD (https://www.taojinlab.com/)
  *         Department of Mechanical Engineering
