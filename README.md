@@ -19,6 +19,9 @@ Once the deal.II library is compiled, for instance, to "~/dealii-9.4.0/bin/", fo
 1. copy the input files contained in one of the example folders into the folder SourceCode
 2. make run
 
+### How to cite this work:
+Tao Jin (2024). A three-field based finite element analysis for a class of magnetoelastic materials, Finite Elements in Analysis and Design, https://doi.org/10.1016/j.finel.2024.104126.
+
 ### Reference
 This work is based on the constitutive formulation proposed in the paper:
 Zhao, R., Kim, Y., Chester, S.A., Sharma, P., Zhao, X., 2019. Mechanics of hard-magnetic soft materials. Journal of the Mechanics and Physics of Solids, 124, 244–263. doi:https://doi.org/10.1016/j.jmps.2018.10.008.
